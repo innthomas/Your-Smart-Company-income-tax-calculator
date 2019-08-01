@@ -5,7 +5,7 @@ print('Your SMART company tax calculator')
 
 try:
     company_name = input('Company name: ')
-    revenue = float(input('taxable profit for the year:' ))
+    revenue = float(input('taxable income for the year:' ))
     rate = float(input('applicable tax rate:'))
     
     def company_tax (revenue, rate=0.3):
